@@ -19,6 +19,6 @@ namespace EHBSplitter
         public string UpdateName => "else Heart.Break()";
         public string XMLURL => null;
         public string UpdateURL => null;
-        public Version Version => new Version("0.1");
+        public Version Version => new Version("1.0");
     }
 }
