@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<updates>
+	<update version="1.0.0">
+		<files>
+			<file path="bin/Release/ElseHeartBreak-Splitter.dll" status="changed" />
+		</files>
+		<changelog>
+			<change>First release</change>
+		</changelog>
+	</update>
+</updates>
