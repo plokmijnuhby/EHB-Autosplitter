@@ -17,8 +17,8 @@ namespace EHBSplitter
         public string Description => "Automates splits for else Heart.Break()";
         public ComponentCategory Category => ComponentCategory.Control;
         public string UpdateName => "else Heart.Break()";
-        public string XMLURL => null;
-        public string UpdateURL => null;
-        public Version Version => new Version("1.0");
+        public string XMLURL => "/EHB-Splitter.xml";
+        public string UpdateURL => "https://raw.githubusercontent.com/plokmijnuhby/EHB-Autosplitter/master/";
+        public Version Version => new Version("0.1");
     }
 }
