@@ -76,7 +76,6 @@ namespace EHBSplitter
                     timer.Dispose();
                     break;
                 }
-                Thread.Sleep(1); // Give it a little room to breathe
             }
         }
         public bool ShouldSplit(LiveSplitState state)

@@ -9,10 +9,7 @@ namespace EHBSplitter
 {
     class EHBFactory : IComponentFactory
     {
-        public IComponent Create(LiveSplitState state)
-        {
-            return new EHBComponent(state);
-        }
+        public IComponent Create(LiveSplitState state) => new EHBComponent(state);
         public string ComponentName => "else Heart.Break() Autosplitter";
         public string Description => "Automates splits for else Heart.Break()";
         public ComponentCategory Category => ComponentCategory.Control;
